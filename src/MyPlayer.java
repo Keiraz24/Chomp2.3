@@ -15,7 +15,7 @@ public class MyPlayer {
 
         columns = new int[10];
         listBoards();
-        reducer(3, 3, 3);
+        reducer(2, 2, 2);
 
     }
 
@@ -73,8 +73,8 @@ public class MyPlayer {
 //                }
 //                }
 //            }
-        for (int k = a; k > 0; k--) {
-            aA = k;
+        for (int k = a; k >=2; k--) {
+            aA = k-1;
             bB=b;
             cC=c;
             if(bB>aA){
@@ -103,7 +103,7 @@ public class MyPlayer {
 
         System.out.println("oerijv;awoeigjv'WP");
 
-        for (int i = c-1; i >= 0; i--) {
+        for (int i = c-2; i >= 0; i--) {
             aA=a;
             cC = i;
             System.out.println(aA + "-" + b + "-" + cC);
